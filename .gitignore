@@ -1,0 +1,32 @@
+# Ignore all dotfiles except ours
+.*
+!.gitignore
+!.eslintrc
+!.eslintignore
+!.stylelintrc
+!.nvmrc
+
+# System & Development
+/cgi-bin/*
+/cgi/*
+.idea
+.vscode
+.sublime-project
+.sublime-workspace
+node_modules
+.sass-cache
+/.htaccess
+/.htaccess.orig
+.DS_Store
+.gitattributes
+.ftpquota
+.well-known
+Thumbs.db
+error_log
+._*
+*.bak
+*.ini
+*.log
+*.map
+*.orig
+*~
